@@ -1,0 +1,83 @@
+/* Split columns */
+<style>.columnName {display: inline-block; max-width :48%;} </style>
+
+
+/* Image Zoom */
+.imagezoom {
+    overflow:hidden;
+    }
+    .imagezoom scale-image img{
+    transition: all 0.5s;
+    }
+    .imagezoom :hover img {
+    transform: scale(1.2)
+    }
+
+
+/* Fullscreen image slider*/ 
+    .slider .et_pb_slides,
+    .slider .et_pb_slide,
+    .slider .et_pb_container {
+        min-height: 100% !important;
+        height: 100% !important;
+    }
+    
+    /*** Hide hamburger menu item on mobile ***/
+    .et_mobile_menu .Main-menu >
+     a{display:none;}*/
+    
+    /**** hide down arrow ****/
+    #top-menu .Main-menu > a:first-child:after, #et-secondary-nav .menu-item-has-children > a:first-child:after {display: none;}
+    
+    /*** show hamburger icon ***/
+    .hamburger:before {
+        font-family: "ETmodules" !important;
+        font-weight: normal;
+        font-style: normal;
+        font-variant: normal;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 0.6em;
+        text-transform: none;
+        speak: none;
+        position: relative;
+        cursor: pointer;
+        top: 20;
+        left: 0;
+        vertical-align: -11px;
+        padding-right: 3px;
+        font-size: 32px; /*change size of icon here*/
+        content: "\61"; /*change icon here*/
+        color: #333; /*change color of icon here*/
+    }
+     
+    /*** displays the "x" close icon ***/
+    .show-submenu .hamburger:before {
+        content: "\4d"; /*change x icon here*/
+    }
+    
+    /* Hide Divi Main Navigation horizontal Menu on particular page only */
+    .page-id-196 #main-header { display:none; }
+    .page-id-196 #page-container {
+    padding-top:0px !important
+    }
+    
+    /*Hide Divi Main Navigation horizontal Menu on particular page only */
+    .page-id-196 #main-header { 
+        display: none; 
+    }
+    
+    .page-id-196 #et-main-area {
+        margin-left: 0 !important;
+    }
+
+/* Image Zoom */
+    .imagezoom {
+        overflow:hidden;
+        }
+        .imagezoom scale-image img{
+        transition: all 0.5s;
+        }
+        .imagezoom :hover img {
+        transform: scale(1.2)
+        }
