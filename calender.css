@@ -1,0 +1,76 @@
+/* Field ID */
+
+pa-date-time-picker
+
+/* Custom CSS for Date/Time calender on Divi form */
+
+.xdsoft_datetimepicker {
+    box-shadow: 0 15px 40px 6px rgba(0, 0, 0, 0.1)!important;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+ .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current {
+    background: #2cba6c;
+    box-shadow: #2cba6c 0 1px 3px 0 inset;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default:hover {
+    background: #e03574!important;
+    box-shadow: #e03574 0 1px 3px 0 inset!important;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today {
+    color: #e03574!important;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_datepicker {
+    width: 350px!important;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_timepicker {
+    width: 100px!important;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_calendar td,
+ .xdsoft_datetimepicker .xdsoft_calendar th {
+    background: #ffffff;
+    border: 2px solid #ebf8f1;
+ }
+ 
+ .xdsoft_datetimepicker.xdsoft_noselect.xdsoft_default {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div {
+    background: #ffffff;
+    border-top: 2px solid #ebf8f1;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    border-collapse: collapse;
+    cursor: pointer;
+    border-bottom-width: 0;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 8px;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_calendar td,
+ .xdsoft_datetimepicker .xdsoft_calendar th {
+    background: #ffffff;
+    border: 2px solid #ebf8f1;
+    color: #333;
+    font-size: 16px;
+    height: 36px;
+ }
+ 
+ .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
+    border-bottom: 2px solid #ebf8f1;
+ }
+ 
+ .xdsoft_time_box {
+    border: 2px solid #ebf8f1;
+ }
